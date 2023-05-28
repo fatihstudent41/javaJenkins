@@ -22,7 +22,36 @@ public class singeltonSample {
     
     singclls.getinstance().test();
     System.out.println(singclls.getinstance().conStr);
+    System.out.println("java 1.8");
 
 	}
 
 }
+
+
+
+/*
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fatihstudent41/javaJenkins.git
+git push -u origin main
+ 
+ 
+git status  
+
+
+git log
+
+
+git log cacdb9541c4df21231595356a978d75398a2a0c8
+
+
+
+
+ */
+
+
