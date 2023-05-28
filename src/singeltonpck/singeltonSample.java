@@ -21,7 +21,8 @@ public class singeltonSample {
     
     singclls.getinstance().test();
     System.out.println(singclls.getinstance().conStr);
-    System.out.println("java 1.5");
+    System.out.println("java 11");
+    System.out.println("what is now??");
 
 	}
 
