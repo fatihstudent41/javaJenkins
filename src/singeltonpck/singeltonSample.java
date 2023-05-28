@@ -1,7 +1,6 @@
 package singeltonpck;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class singeltonSample {
 
@@ -9,20 +8,20 @@ public class singeltonSample {
     System.out.println("Singelton class sample");
     
     
-    List<String> list1 = new ArrayList<>();
+    //List<String> list1 = new ArrayList<>();
     
-    list1.add("a1");
-    list1.add("a2");
-    list1.add("a3");
-    list1.add("a4");
+    //list1.add("a1");
+    //list1.add("a2");
+    //list1.add("a3");
+    //list1.add("a4");
     
-    for (String s1 : list1) {
-		System.out.println(s1.toString());
-	}
+    //for (String s1 : list1) {
+		//System.out.println(s1.toString());
+	//}
     
     singclls.getinstance().test();
     System.out.println(singclls.getinstance().conStr);
-    System.out.println("java 1.8");
+    System.out.println("java 1.5");
 
 	}
 
